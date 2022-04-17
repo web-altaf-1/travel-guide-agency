@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Rome: Vatican Museums & Sistine Chapel Tour",
+        "price": "58.28",
+        "description": "Take a guided tour of the extensive papal collection of statues, artifacts, and paintings by some of the world’s most distinguished artists in the endless corridors of the Vatican Museums. ",
+        "img": "https://i.ibb.co/F7cxzTs/service1.png"
+    },
+    {
+        "id": 2,
+        "name": "Tour with Roman Forum and Palatine Hill",
+        "price": "35.64",
+        "description": " Explore the Colosseum, Roman Forum, and Palatine Hill with a guided tour of all 3 attractions. Learn all about the biggest amphitheater in the Roman Empire, everyday Roman life, and the founding site of the city.",
+        "img": "https://i.ibb.co/jHfVDj9/service2.png"
+    },
+    {
+        "id": 3,
+        "name": "Las Vegas: Antelope Canyon & Horseshoe Bend Tour with Pickup",
+        "price": "299",
+        "description": "Hop in an air-conditioned van and head to either the famous Lower Antelope Canyon or the secluded Antelope Canyon X with your Navajo tribal guide. Get off the beaten path and see sights like Horseshoe Bend and the Colorado River on this small-group experience.",
+        "img": "https://i.ibb.co/ZhMXcwc/service3.png"
+    }
+]
