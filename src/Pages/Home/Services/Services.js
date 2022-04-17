@@ -4,7 +4,7 @@ import './Services.css';
 const Services = () => {
     return (
         <div>
-            <h2>This is footer !! </h2>
+            <h2> This is a services </h2>
         </div>
     );
 };
