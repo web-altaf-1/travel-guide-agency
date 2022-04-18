@@ -1,29 +1,29 @@
 import React from "react";
+import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import './Footer.css';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer-distributed bg-primary text-white">
+            <footer className="footer-distributed bg-primary text-white mt-5">
 
                 <div className="footer-left">
 
-                    <h3>Company<span>logo</span></h3>
+                    <h3>Travel Guide<span> Agency</span></h3>
 
                     <p className="footer-links">
-                        <a href="#" className="link-1">Home</a>
+                    <Nav.Link style={{padding:'0'}} as={Link} eventKey={1} to="/">Home</Nav.Link>
 
-                        <a href="#">Blog</a>
+                    <Nav.Link style={{padding:'0'}} as={Link} eventKey={2} to="/services">Services</Nav.Link>
 
-                        <a href="#">Pricing</a>
+                    <Nav.Link style={{padding:'0'}} as={Link} eventKey={3} to="/blogs">Blogs</Nav.Link>
 
-                        <a href="#">About</a>
+                    <Nav.Link style={{padding:'0'}} as={Link} eventKey={4} to="/about">About Me</Nav.Link>
 
-                        <a href="#">Faq</a>
-
-                        <a href="#">Contact</a>
+                    <Nav.Link style={{padding:'0'}} as={Link} eventKey={5} to="/contact">Contact</Nav.Link>
                     </p>
 
-                    <p className="footer-company-name"> Travel Guide Agency © {new Date().getFullYear()}</p>
+                    <p className="footer-company-name text-white"> Travel Guide Agency © {new Date().getFullYear()}</p>
                 </div>
 
                 <div className="footer-center">

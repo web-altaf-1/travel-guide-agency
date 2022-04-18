@@ -63,7 +63,7 @@ const Login = () => {
                 </Form.Group>
                 
                 <Form.Group className="mb-3" controlId="signup">
-                <Form.Label>New user ?? </Form.Label>
+                <Form.Label>New to travel guide agency ?? </Form.Label>
                     <Link style={{marginLeft:'5px'}} to='/register'>Please Register</Link>
                 </Form.Group>
 

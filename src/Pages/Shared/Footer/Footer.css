@@ -21,7 +21,7 @@ section {
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 55px 50px;
+	padding: 38px 50px;
 }
 
 .footer-distributed .footer-left,
@@ -46,7 +46,7 @@ section {
 }
 
 .footer-distributed h3 span{
-	color:  lightseagreen;
+	color:  yellow;
 }
 
 /* Footer links */
@@ -186,7 +186,7 @@ section {
 	.footer-distributed .footer-right{
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
+		margin-bottom: 20px;
 		text-align: center;
 	}
 
