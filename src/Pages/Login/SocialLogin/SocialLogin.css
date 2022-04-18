@@ -1,0 +1,9 @@
+.google-signin-button{
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.google-signin-button:hover{
+    border: 1px solid goldenrod;
+}
