@@ -32,9 +32,7 @@ const Login = () => {
     }
 
     if (error) {
-        errorElement = <div>
-            <p className='text-danger'>Error: {error.message}</p>
-        </div>
+        errorElement = <p className='text-danger'>Error: {error.message}</p> 
     };
 
     const handleSubmit = event => {
@@ -76,7 +74,7 @@ const Login = () => {
                 </Form.Group>
 
                 <Button variant="primary" type="submit">
-                    Submit
+                    Login
                 </Button>
             </Form>
             {errorElement}

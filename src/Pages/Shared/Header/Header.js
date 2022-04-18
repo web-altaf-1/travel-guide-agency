@@ -12,7 +12,7 @@ const Header = () => {
   const handleSignOut = () => {
     signOut(auth);
   }
-  
+
   return (
     <Navbar sticky='top' collapseOnSelect expand="lg" bg="primary" variant="dark">
       <Container>
@@ -23,14 +23,15 @@ const Header = () => {
 
           </Nav>
           <Nav>
-            <Nav.Link as={Link} eventKey={2} to="services">Services</Nav.Link>
-            <Nav.Link as={Link} eventKey={3} to="/blogs">Blogs</Nav.Link>
-            <Nav.Link as={Link} eventKey={4} to="about">About Me</Nav.Link>
+          <Nav.Link as={Link} eventKey={2} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} eventKey={3} to="services">Services</Nav.Link>
+            <Nav.Link as={Link} eventKey={4} to="/blogs">Blogs</Nav.Link>
+            <Nav.Link as={Link} eventKey={5} to="about">About Me</Nav.Link>
             {
               user ?
                 <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>
                 :
-                <Nav.Link eventKey={5} as={Link} to="login">
+                <Nav.Link eventKey={6} as={Link} to="login">
                   Login
                 </Nav.Link>}
           </Nav>

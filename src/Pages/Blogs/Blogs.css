@@ -1,3 +1,15 @@
 .blogs-container{
     min-height: 50vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.qna-content{
+    width: 75%;
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px 32px gray;
+    padding:20px; 
+    border-radius: 10px;
+    margin: 20px auto;
 }

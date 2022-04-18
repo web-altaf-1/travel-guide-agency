@@ -9,6 +9,7 @@ import SlocialLogin from '../SocialLogin/SocialLogin';
 import './Register.css';
 
 const Register = () => {
+
     const [loginUser] = useAuthState(auth);
     const [
         createUserWithEmailAndPassword,
@@ -25,22 +26,29 @@ const Register = () => {
 
 
 
-    if (loginUser) {
+    if (user) {
         signOut(auth);
     }
 
     if (user) {
         navigate('/login');
     }
-
-
+    let errorElement;
+    
 
     const handleRegister = event => {
         event.preventDefault();
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
-        console.log(email, password);
+        const confirmPassword = event.target.confirmPassword.value;
+        
+
+        if (error) {
+            errorElement = <p className='text-danger'>Error: {error.message}</p>
+        };
+
+
 
         createUserWithEmailAndPassword(email, password);
     }
@@ -69,7 +77,6 @@ const Register = () => {
                         <Form.Label>Confirm Password</Form.Label>
                         <Form.Control type="password" name='confirmPassword' placeholder="Confirm Password" required />
                     </Form.Group>
-
                     <Form.Group className="mb-3" controlId="formBasicCheckbox">
                         <Form.Check type="checkbox" label="I agree to Terms and condition" required />
                     </Form.Group>
@@ -78,9 +85,9 @@ const Register = () => {
                         <Form.Label>Already Have an Account ?? </Form.Label>
                         <Link style={{ marginLeft: '5px' }} to='/login'>Please Login</Link>
                     </Form.Group>
-
+                    {errorElement}
                     <Button variant="primary" type="submit">
-                        Submit
+                        Register
                     </Button>
                 </Form>
             </div>

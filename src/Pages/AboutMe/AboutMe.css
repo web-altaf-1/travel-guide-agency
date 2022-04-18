@@ -1,3 +1,19 @@
 .about-me-container{
     min-height: 50vh;
 }
+
+.about-right-page{
+    margin-top: 60px;
+}
+
+.about-card-style{
+    border: 1px solid tomato;
+    padding: 10px;
+}
+
+@media only screen and (max-width:676px) {
+    .about-right-page{
+        margin-top: 10px; 
+    }
+    
+}
