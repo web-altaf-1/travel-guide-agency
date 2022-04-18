@@ -30,7 +30,7 @@ const Footer = () => {
 
                     <div>
                         <i className="fa fa-map-marker"></i>
-                        <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+                        <p><span>333 ,Maluher</span> Banaripara, Barishal</p>
                     </div>
 
                     <div>
