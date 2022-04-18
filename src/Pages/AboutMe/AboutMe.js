@@ -18,7 +18,7 @@ const AboutMe = () => {
                                 <div className="col-md-8 ">
                                     <div className='about-right-page'>
                                         <h2>Name : Md Altaf Hossen</h2>
-                                        <p> <span className='fw-bold'>Goal</span> : I will became a professional web developer . And i already started my journey in  </p>
+                                        <p> <span className='fw-bold'>Goal</span> : I will became a professional web developer . And i already started my journey in programming sector by Programming Hero , And i will be a good programmer in future world .  </p>
                                     </div>
                                 </div>
                             </div>
